@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71A22F151CA7DEA400C60645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A22F141CA7DEA400C60645 /* main.m */; };
+		71A22F181CA7DEA400C60645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A22F171CA7DEA400C60645 /* AppDelegate.m */; };
+		71A22F1B1CA7DEA400C60645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A22F1A1CA7DEA400C60645 /* ViewController.m */; };
+		71A22F1E1CA7DEA400C60645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A22F1C1CA7DEA400C60645 /* Main.storyboard */; };
+		71A22F201CA7DEA400C60645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A22F1F1CA7DEA400C60645 /* Assets.xcassets */; };
+		71A22F231CA7DEA400C60645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A22F211CA7DEA400C60645 /* LaunchScreen.storyboard */; };
+		71A22F2E1CA7DEA400C60645 /* LuckyWheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A22F2D1CA7DEA400C60645 /* LuckyWheelTests.m */; };
+		71A22F391CA7DEA500C60645 /* LuckyWheelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A22F381CA7DEA500C60645 /* LuckyWheelUITests.m */; };
+		71A22F481CA7DEED00C60645 /* CYWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A22F471CA7DEED00C60645 /* CYWheelView.m */; };
+		71A22F4A1CA7DEF900C60645 /* CYWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A22F491CA7DEF900C60645 /* CYWheelView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71A22F2A1CA7DEA400C60645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A22F081CA7DEA400C60645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A22F0F1CA7DEA400C60645;
+			remoteInfo = LuckyWheel;
+		};
+		71A22F351CA7DEA500C60645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A22F081CA7DEA400C60645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A22F0F1CA7DEA400C60645;
+			remoteInfo = LuckyWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71A22F101CA7DEA400C60645 /* LuckyWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A22F141CA7DEA400C60645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71A22F161CA7DEA400C60645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71A22F171CA7DEA400C60645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71A22F191CA7DEA400C60645 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71A22F1A1CA7DEA400C60645 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71A22F1D1CA7DEA400C60645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71A22F1F1CA7DEA400C60645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71A22F221CA7DEA400C60645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71A22F241CA7DEA400C60645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A22F291CA7DEA400C60645 /* LuckyWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A22F2D1CA7DEA400C60645 /* LuckyWheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyWheelTests.m; sourceTree = "<group>"; };
+		71A22F2F1CA7DEA400C60645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A22F341CA7DEA500C60645 /* LuckyWheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyWheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A22F381CA7DEA500C60645 /* LuckyWheelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyWheelUITests.m; sourceTree = "<group>"; };
+		71A22F3A1CA7DEA500C60645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A22F461CA7DEED00C60645 /* CYWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWheelView.h; sourceTree = "<group>"; };
+		71A22F471CA7DEED00C60645 /* CYWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWheelView.m; sourceTree = "<group>"; };
+		71A22F491CA7DEF900C60645 /* CYWheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYWheelView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A22F0D1CA7DEA400C60645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A22F261CA7DEA400C60645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A22F311CA7DEA500C60645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71A22F071CA7DEA400C60645 = {
+			isa = PBXGroup;
+			children = (
+				71A22F121CA7DEA400C60645 /* LuckyWheel */,
+				71A22F2C1CA7DEA400C60645 /* LuckyWheelTests */,
+				71A22F371CA7DEA500C60645 /* LuckyWheelUITests */,
+				71A22F111CA7DEA400C60645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A22F111CA7DEA400C60645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A22F101CA7DEA400C60645 /* LuckyWheel.app */,
+				71A22F291CA7DEA400C60645 /* LuckyWheelTests.xctest */,
+				71A22F341CA7DEA500C60645 /* LuckyWheelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A22F121CA7DEA400C60645 /* LuckyWheel */ = {
+			isa = PBXGroup;
+			children = (
+				71A22F161CA7DEA400C60645 /* AppDelegate.h */,
+				71A22F171CA7DEA400C60645 /* AppDelegate.m */,
+				71A22F191CA7DEA400C60645 /* ViewController.h */,
+				71A22F1A1CA7DEA400C60645 /* ViewController.m */,
+				71A22F461CA7DEED00C60645 /* CYWheelView.h */,
+				71A22F471CA7DEED00C60645 /* CYWheelView.m */,
+				71A22F491CA7DEF900C60645 /* CYWheelView.xib */,
+				71A22F1C1CA7DEA400C60645 /* Main.storyboard */,
+				71A22F1F1CA7DEA400C60645 /* Assets.xcassets */,
+				71A22F211CA7DEA400C60645 /* LaunchScreen.storyboard */,
+				71A22F241CA7DEA400C60645 /* Info.plist */,
+				71A22F131CA7DEA400C60645 /* Supporting Files */,
+			);
+			path = LuckyWheel;
+			sourceTree = "<group>";
+		};
+		71A22F131CA7DEA400C60645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71A22F141CA7DEA400C60645 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71A22F2C1CA7DEA400C60645 /* LuckyWheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				71A22F2D1CA7DEA400C60645 /* LuckyWheelTests.m */,
+				71A22F2F1CA7DEA400C60645 /* Info.plist */,
+			);
+			path = LuckyWheelTests;
+			sourceTree = "<group>";
+		};
+		71A22F371CA7DEA500C60645 /* LuckyWheelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71A22F381CA7DEA500C60645 /* LuckyWheelUITests.m */,
+				71A22F3A1CA7DEA500C60645 /* Info.plist */,
+			);
+			path = LuckyWheelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A22F0F1CA7DEA400C60645 /* LuckyWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A22F3D1CA7DEA500C60645 /* Build configuration list for PBXNativeTarget "LuckyWheel" */;
+			buildPhases = (
+				71A22F0C1CA7DEA400C60645 /* Sources */,
+				71A22F0D1CA7DEA400C60645 /* Frameworks */,
+				71A22F0E1CA7DEA400C60645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyWheel;
+			productName = LuckyWheel;
+			productReference = 71A22F101CA7DEA400C60645 /* LuckyWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71A22F281CA7DEA400C60645 /* LuckyWheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A22F401CA7DEA500C60645 /* Build configuration list for PBXNativeTarget "LuckyWheelTests" */;
+			buildPhases = (
+				71A22F251CA7DEA400C60645 /* Sources */,
+				71A22F261CA7DEA400C60645 /* Frameworks */,
+				71A22F271CA7DEA400C60645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A22F2B1CA7DEA400C60645 /* PBXTargetDependency */,
+			);
+			name = LuckyWheelTests;
+			productName = LuckyWheelTests;
+			productReference = 71A22F291CA7DEA400C60645 /* LuckyWheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71A22F331CA7DEA500C60645 /* LuckyWheelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A22F431CA7DEA500C60645 /* Build configuration list for PBXNativeTarget "LuckyWheelUITests" */;
+			buildPhases = (
+				71A22F301CA7DEA500C60645 /* Sources */,
+				71A22F311CA7DEA500C60645 /* Frameworks */,
+				71A22F321CA7DEA500C60645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A22F361CA7DEA500C60645 /* PBXTargetDependency */,
+			);
+			name = LuckyWheelUITests;
+			productName = LuckyWheelUITests;
+			productReference = 71A22F341CA7DEA500C60645 /* LuckyWheelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A22F081CA7DEA400C60645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Self;
+				TargetAttributes = {
+					71A22F0F1CA7DEA400C60645 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					71A22F281CA7DEA400C60645 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 71A22F0F1CA7DEA400C60645;
+					};
+					71A22F331CA7DEA500C60645 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 71A22F0F1CA7DEA400C60645;
+					};
+				};
+			};
+			buildConfigurationList = 71A22F0B1CA7DEA400C60645 /* Build configuration list for PBXProject "LuckyWheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A22F071CA7DEA400C60645;
+			productRefGroup = 71A22F111CA7DEA400C60645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A22F0F1CA7DEA400C60645 /* LuckyWheel */,
+				71A22F281CA7DEA400C60645 /* LuckyWheelTests */,
+				71A22F331CA7DEA500C60645 /* LuckyWheelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A22F0E1CA7DEA400C60645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A22F4A1CA7DEF900C60645 /* CYWheelView.xib in Resources */,
+				71A22F231CA7DEA400C60645 /* LaunchScreen.storyboard in Resources */,
+				71A22F201CA7DEA400C60645 /* Assets.xcassets in Resources */,
+				71A22F1E1CA7DEA400C60645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A22F271CA7DEA400C60645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A22F321CA7DEA500C60645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A22F0C1CA7DEA400C60645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A22F481CA7DEED00C60645 /* CYWheelView.m in Sources */,
+				71A22F1B1CA7DEA400C60645 /* ViewController.m in Sources */,
+				71A22F181CA7DEA400C60645 /* AppDelegate.m in Sources */,
+				71A22F151CA7DEA400C60645 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A22F251CA7DEA400C60645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A22F2E1CA7DEA400C60645 /* LuckyWheelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A22F301CA7DEA500C60645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A22F391CA7DEA500C60645 /* LuckyWheelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71A22F2B1CA7DEA400C60645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A22F0F1CA7DEA400C60645 /* LuckyWheel */;
+			targetProxy = 71A22F2A1CA7DEA400C60645 /* PBXContainerItemProxy */;
+		};
+		71A22F361CA7DEA500C60645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A22F0F1CA7DEA400C60645 /* LuckyWheel */;
+			targetProxy = 71A22F351CA7DEA500C60645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71A22F1C1CA7DEA400C60645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A22F1D1CA7DEA400C60645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71A22F211CA7DEA400C60645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A22F221CA7DEA400C60645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71A22F3B1CA7DEA500C60645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A22F3C1CA7DEA500C60645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A22F3E1CA7DEA500C60645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckyWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.LuckyWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71A22F3F1CA7DEA500C60645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckyWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.LuckyWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71A22F411CA7DEA500C60645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuckyWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.LuckyWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyWheel.app/LuckyWheel";
+			};
+			name = Debug;
+		};
+		71A22F421CA7DEA500C60645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuckyWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.LuckyWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyWheel.app/LuckyWheel";
+			};
+			name = Release;
+		};
+		71A22F441CA7DEA500C60645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuckyWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.LuckyWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuckyWheel;
+			};
+			name = Debug;
+		};
+		71A22F451CA7DEA500C60645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuckyWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Self.LuckyWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuckyWheel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A22F0B1CA7DEA400C60645 /* Build configuration list for PBXProject "LuckyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A22F3B1CA7DEA500C60645 /* Debug */,
+				71A22F3C1CA7DEA500C60645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A22F3D1CA7DEA500C60645 /* Build configuration list for PBXNativeTarget "LuckyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A22F3E1CA7DEA500C60645 /* Debug */,
+				71A22F3F1CA7DEA500C60645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71A22F401CA7DEA500C60645 /* Build configuration list for PBXNativeTarget "LuckyWheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A22F411CA7DEA500C60645 /* Debug */,
+				71A22F421CA7DEA500C60645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71A22F431CA7DEA500C60645 /* Build configuration list for PBXNativeTarget "LuckyWheelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A22F441CA7DEA500C60645 /* Debug */,
+				71A22F451CA7DEA500C60645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A22F081CA7DEA400C60645 /* Project object */;
+}
