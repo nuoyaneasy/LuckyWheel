@@ -12,4 +12,8 @@
 
 + (instancetype)wheelView;
 
+- (void)startRotating;
+
+- (void)stopRotating;
+
 @end

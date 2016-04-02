@@ -17,6 +17,7 @@
 		71A22F391CA7DEA500C60645 /* LuckyWheelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A22F381CA7DEA500C60645 /* LuckyWheelUITests.m */; };
 		71A22F481CA7DEED00C60645 /* CYWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A22F471CA7DEED00C60645 /* CYWheelView.m */; };
 		71A22F4A1CA7DEF900C60645 /* CYWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A22F491CA7DEF900C60645 /* CYWheelView.xib */; };
+		71C782071CAD7C0A000C4A69 /* LuckyWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C782061CAD7C0A000C4A69 /* LuckyWheelButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		71A22F461CA7DEED00C60645 /* CYWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWheelView.h; sourceTree = "<group>"; };
 		71A22F471CA7DEED00C60645 /* CYWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWheelView.m; sourceTree = "<group>"; };
 		71A22F491CA7DEF900C60645 /* CYWheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYWheelView.xib; sourceTree = "<group>"; };
+		71C782051CAD7C0A000C4A69 /* LuckyWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyWheelButton.h; sourceTree = "<group>"; };
+		71C782061CAD7C0A000C4A69 /* LuckyWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyWheelButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				71A22F1A1CA7DEA400C60645 /* ViewController.m */,
 				71A22F461CA7DEED00C60645 /* CYWheelView.h */,
 				71A22F471CA7DEED00C60645 /* CYWheelView.m */,
+				71C782051CAD7C0A000C4A69 /* LuckyWheelButton.h */,
+				71C782061CAD7C0A000C4A69 /* LuckyWheelButton.m */,
 				71A22F491CA7DEF900C60645 /* CYWheelView.xib */,
 				71A22F1C1CA7DEA400C60645 /* Main.storyboard */,
 				71A22F1F1CA7DEA400C60645 /* Assets.xcassets */,
@@ -282,6 +287,7 @@
 				71A22F481CA7DEED00C60645 /* CYWheelView.m in Sources */,
 				71A22F1B1CA7DEA400C60645 /* ViewController.m in Sources */,
 				71A22F181CA7DEA400C60645 /* AppDelegate.m in Sources */,
+				71C782071CAD7C0A000C4A69 /* LuckyWheelButton.m in Sources */,
 				71A22F151CA7DEA400C60645 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +514,7 @@
 				71A22F3F1CA7DEA500C60645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71A22F401CA7DEA500C60645 /* Build configuration list for PBXNativeTarget "LuckyWheelTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +523,7 @@
 				71A22F421CA7DEA500C60645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71A22F431CA7DEA500C60645 /* Build configuration list for PBXNativeTarget "LuckyWheelUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +532,7 @@
 				71A22F451CA7DEA500C60645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
